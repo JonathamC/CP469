@@ -121,8 +121,46 @@
                     <view key="view" contentMode="scaleToFill" id="EOB-K5-UMe">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qt3-7Z-mrB">
+                                <rect key="frame" x="124" y="144" width="180" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="7Ac-Ul-PbA"/>
+                                    <constraint firstAttribute="height" constant="128" id="9iG-cJ-hj9"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SBG-pp-Aom">
+                                <rect key="frame" x="191.66666666666666" y="292" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMD-aa-yFB">
+                                <rect key="frame" x="181" y="373" width="66" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Delete"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EmH-WG-5xh">
+                                <rect key="frame" x="187" y="424" width="54" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="8xj-tC-65o"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="IlY-h5-RJE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SBG-pp-Aom" firstAttribute="centerX" secondItem="IlY-h5-RJE" secondAttribute="centerX" id="MoG-Im-3fh"/>
+                            <constraint firstItem="pMD-aa-yFB" firstAttribute="centerX" secondItem="IlY-h5-RJE" secondAttribute="centerX" id="RU4-RK-m83"/>
+                            <constraint firstItem="qt3-7Z-mrB" firstAttribute="top" secondItem="IlY-h5-RJE" secondAttribute="top" constant="100" id="Zq9-mL-F5N"/>
+                            <constraint firstItem="qt3-7Z-mrB" firstAttribute="centerX" secondItem="IlY-h5-RJE" secondAttribute="centerX" id="jqf-0T-EIZ"/>
+                            <constraint firstItem="EmH-WG-5xh" firstAttribute="centerX" secondItem="SBG-pp-Aom" secondAttribute="centerX" id="kYJ-4I-blI"/>
+                            <constraint firstItem="SBG-pp-Aom" firstAttribute="top" secondItem="qt3-7Z-mrB" secondAttribute="bottom" constant="20" id="sTy-gp-l1e"/>
+                            <constraint firstItem="EmH-WG-5xh" firstAttribute="top" secondItem="pMD-aa-yFB" secondAttribute="bottom" constant="20" id="wvH-S7-cQG"/>
+                            <constraint firstItem="pMD-aa-yFB" firstAttribute="top" secondItem="SBG-pp-Aom" secondAttribute="bottom" constant="60" id="zzd-04-tBp"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Delete" image="minus.circle" catalog="system" id="yjF-WU-l39"/>
                 </viewController>
@@ -141,7 +179,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EDT-gP-sch">
                                 <rect key="frame" x="114" y="104.00000000000001" width="200" height="148.33333333333337"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppDelegate" translatesAutoresizingMaskIntoConstraints="NO" id="cDz-o9-lGl">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cDz-o9-lGl">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="128"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="200" id="5e4-1d-Rxk"/>
@@ -230,7 +268,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="AppDelegate" width="50" height="50"/>
         <image name="minus.circle" catalog="system" width="128" height="121"/>
         <image name="plus.circle" catalog="system" width="128" height="121"/>
         <image name="star" catalog="system" width="128" height="116"/>
