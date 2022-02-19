@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A72964E227BEFB6100BEBE85 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72964E127BEFB6100BEBE85 /* Person.swift */; };
+		A72964E427BEFC0100BEBE85 /* PersonLIst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72964E327BEFC0100BEBE85 /* PersonLIst.swift */; };
+		A72964E627BEFC9F00BEBE85 /* SharingPersons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72964E527BEFC9F00BEBE85 /* SharingPersons.swift */; };
 		A7ADF0A327BE4AF100863878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ADF0A227BE4AF100863878 /* AppDelegate.swift */; };
 		A7ADF0A527BE4AF100863878 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ADF0A427BE4AF100863878 /* SceneDelegate.swift */; };
-		A7ADF0A727BE4AF100863878 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ADF0A627BE4AF100863878 /* ViewController.swift */; };
 		A7ADF0AA27BE4AF100863878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7ADF0A827BE4AF100863878 /* Main.storyboard */; };
 		A7ADF0AC27BE4AF200863878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7ADF0AB27BE4AF200863878 /* Assets.xcassets */; };
 		A7ADF0AF27BE4AF200863878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7ADF0AD27BE4AF200863878 /* LaunchScreen.storyboard */; };
@@ -19,10 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A72964E127BEFB6100BEBE85 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A72964E327BEFC0100BEBE85 /* PersonLIst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonLIst.swift; sourceTree = "<group>"; };
+		A72964E527BEFC9F00BEBE85 /* SharingPersons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharingPersons.swift; sourceTree = "<group>"; };
 		A7ADF09F27BE4AF000863878 /* chan8786_a3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chan8786_a3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7ADF0A227BE4AF100863878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7ADF0A427BE4AF100863878 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A7ADF0A627BE4AF100863878 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7ADF0A927BE4AF100863878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7ADF0AB27BE4AF200863878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7ADF0AE27BE4AF200863878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,7 +68,6 @@
 			children = (
 				A7ADF0A227BE4AF100863878 /* AppDelegate.swift */,
 				A7ADF0A427BE4AF100863878 /* SceneDelegate.swift */,
-				A7ADF0A627BE4AF100863878 /* ViewController.swift */,
 				A7ADF0A827BE4AF100863878 /* Main.storyboard */,
 				A7ADF0AB27BE4AF200863878 /* Assets.xcassets */,
 				A7ADF0AD27BE4AF200863878 /* LaunchScreen.storyboard */,
@@ -72,6 +75,9 @@
 				A7ADF0D827BE638200863878 /* FavoritesViewController.swift */,
 				A7ADF0DA27BE639B00863878 /* AddViewController.swift */,
 				A7ADF0DC27BE63A900863878 /* DeleteViewController.swift */,
+				A72964E127BEFB6100BEBE85 /* Person.swift */,
+				A72964E327BEFC0100BEBE85 /* PersonLIst.swift */,
+				A72964E527BEFC9F00BEBE85 /* SharingPersons.swift */,
 			);
 			path = chan8786_a3;
 			sourceTree = "<group>";
@@ -149,9 +155,11 @@
 			files = (
 				A7ADF0DB27BE639B00863878 /* AddViewController.swift in Sources */,
 				A7ADF0DD27BE63A900863878 /* DeleteViewController.swift in Sources */,
-				A7ADF0A727BE4AF100863878 /* ViewController.swift in Sources */,
 				A7ADF0A327BE4AF100863878 /* AppDelegate.swift in Sources */,
+				A72964E227BEFB6100BEBE85 /* Person.swift in Sources */,
 				A7ADF0D927BE638200863878 /* FavoritesViewController.swift in Sources */,
+				A72964E627BEFC9F00BEBE85 /* SharingPersons.swift in Sources */,
+				A72964E427BEFC0100BEBE85 /* PersonLIst.swift in Sources */,
 				A7ADF0A527BE4AF100863878 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
